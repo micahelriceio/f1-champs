@@ -46,3 +46,6 @@ ESLint is used to keep the code clean. A slightly modified version of Airbnb's e
 config is being used. The changes can be viewed in `.eslintrc`
 - [ESLint](https://github.com/eslint/eslint)
 - [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+
+## IDE Used
+VS Code - Version 1.24.0 (1.24.0)
