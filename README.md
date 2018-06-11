@@ -6,7 +6,8 @@ year, highlighing the years' World Champion. (I hope I'm using the correct termi
 to Formula One :))
 
 ## Installing
-Clone the repo and `cd f1-champs`
+- `git clone https://github.com/micahelriceio/f1-champs.git`
+- `cd f1-champs`
 - Using Yarn
   - `yarn install`
   - `yarn start`
@@ -20,8 +21,10 @@ A browser window should open to [localhost:3000](http://localhost:3000)
 To run production ready code make sure you're in the root directory then:
 - Using Yarn
   - `yarn build`
+  - `yarn global add serve`
 - Using NPM
   - `npm run build`
+  - `npm -g i serve`
 
 Then type `server -s build`
 The site will be available for viewing at [localhost:3000](http://localhost:3000)
