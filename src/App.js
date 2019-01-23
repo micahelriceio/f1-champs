@@ -11,7 +11,7 @@ import NoMatch from './components/NoMatch';
 import { AppBase } from './components/styled/baseStyles';
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <AppBase>
       <Header />
       <Switch>

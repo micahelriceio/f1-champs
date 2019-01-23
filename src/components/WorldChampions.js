@@ -20,7 +20,7 @@ class WorldChampions extends Component {
   // the "error" state to show a generic error message.
   async componentDidMount() {
     try {
-      const res = await axios.post('http://ergast.com/api/f1/driverstandings/1.json?offset=55');
+      const res = await axios.post('https://ergast.com/api/f1/driverstandings/1.json?offset=55');
 
       const data = res.data.MRData.StandingsTable.StandingsLists.map(standing => ({
         season: standing.season,

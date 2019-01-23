@@ -2,8 +2,10 @@
   "name": "f1-champs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://micahelriceio.github.io/f1-champs/",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "polished": "^1.9.2",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^4.19.1",

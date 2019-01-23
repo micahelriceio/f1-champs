@@ -33,7 +33,7 @@ class ChampionsByYear extends Component {
     }
 
     try {
-      const res = await axios.post(`http://ergast.com/api/f1/${params.year}/results/1.json`);
+      const res = await axios.post(`https://ergast.com/api/f1/${params.year}/results/1.json`);
 
       const data = res.data.MRData.RaceTable.Races.map(race => ({
         country: race.Circuit.Location.country,
